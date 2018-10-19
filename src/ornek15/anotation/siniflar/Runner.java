@@ -1,7 +1,7 @@
 package ornek15.anotation.siniflar;
 
 import java.sql.Date;
-import java.util.Calendar;
+
 
 @Insan(UyariAdi="Uyari",UyariTuru="Exception")
 public class Runner {
@@ -24,6 +24,9 @@ public class Runner {
 
 	public static void main(String[] args) {
 		TestYeni();
+		
+		Cocuk temp1 = new Cocuk();
+		temp1.Deneme();
 		
 		Date d = new Date(2018,9,21);
 		

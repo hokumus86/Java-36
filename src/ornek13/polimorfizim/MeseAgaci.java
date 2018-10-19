@@ -11,6 +11,10 @@ public void getTur(){
 	public void Test() {
 		System.out.println("Meþe Agacý test Edildi...");
 	}
+	
+	public void Deneme(){
+		
+	}
 
 	
 }
